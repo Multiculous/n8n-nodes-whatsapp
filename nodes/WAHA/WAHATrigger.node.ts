@@ -12,8 +12,8 @@ export class WAHATrigger extends VersionedNodeType {
 		};
 
 		const nodeVersions: IVersionedNodeType['nodeVersions'] = {
-			202409: new WAHATriggerV202409(),
 			202502: new WAHATriggerV202502(),
+			202409: new WAHATriggerV202409(),
 		};
 
 		super(nodeVersions, baseDescription);

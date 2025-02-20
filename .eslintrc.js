@@ -20,7 +20,8 @@ module.exports = {
 
 	ignorePatterns: [
 		'.eslintrc.js', '**/*.js', '**/node_modules/**', '**/dist/**',
-		'**/nodes/**/WAHAv202409.test.ts'
+		'**/nodes/**/WAHAv202409.test.ts',
+		'**/nodes/**/WAHAv202502.test.ts'
 	],
 
 	overrides: [

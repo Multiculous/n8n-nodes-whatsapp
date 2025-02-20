@@ -12,8 +12,8 @@ export class WAHA extends VersionedNodeType {
 		};
 
 		const nodeVersions: IVersionedNodeType['nodeVersions'] = {
-			202409: new WAHAv202409(),
 			202502: new WAHAv202502(),
+			202409: new WAHAv202409(),
 		};
 
 		super(nodeVersions, baseDescription);
