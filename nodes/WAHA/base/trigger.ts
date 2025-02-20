@@ -3,6 +3,7 @@ import {
 	type INodeExecutionData,
 	INodeProperties,
 	INodeTypeBaseDescription,
+	WebhookType,
 	type IWebhookFunctions,
 	type IWebhookResponseData,
 } from 'n8n-workflow';
@@ -22,7 +23,7 @@ export const TRIGGER_DESCRIPTION = {
 	credentials: [],
 	webhooks: [
 		{
-			name: 'default',
+			name: 'default' as WebhookType,
 			httpMethod: 'POST',
 			responseMode: 'onReceived',
 			path: 'waha',

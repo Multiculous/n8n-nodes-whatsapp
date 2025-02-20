@@ -1,6 +1,6 @@
-import type {
+import {
 	INodeType,
-	INodeTypeDescription,
+	INodeTypeDescription, NodeConnectionType,
 } from 'n8n-workflow';
 
 import * as doc from './openapi.json';
@@ -19,8 +19,9 @@ function getEvents() {
 }
 
 const events = getEvents();
-const outputs = events.map((_) => 'main');
+const outputs = events.map((_) => NodeConnectionType.Main);
 const outputNames = events;
+
 
 export class WAHATriggerV202409 implements INodeType {
 	description: INodeTypeDescription = {
