@@ -1,4 +1,4 @@
-import {INodeTypeBaseDescription} from "n8n-workflow";
+import {INodeTypeBaseDescription, NodeConnectionType} from "n8n-workflow";
 
 export const BASE_DESCRIPTION: INodeTypeBaseDescription = {
 	name: 'WAHA',
@@ -11,8 +11,8 @@ export const BASE_DESCRIPTION: INodeTypeBaseDescription = {
 
 export const NODE_DESCRIPTION = {
 	subtitle: '={{$parameter["resource"] + ": " + $parameter["operation"]}}',
-	inputs: ['main'],
-	outputs: ['main'],
+	inputs: [NodeConnectionType.Main],
+	outputs: [NodeConnectionType.Main],
 	defaults: {
 		name: 'WAHA',
 	},
