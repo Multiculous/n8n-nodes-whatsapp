@@ -1745,10 +1745,11 @@ test('WAHAv202502.description.properties', () => {
 			],
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"format": "={{ $value }}"
-					}
+				"send": {
+					"property": "format",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -1807,10 +1808,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "phoneNumber",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"phoneNumber": "={{ $value }}"
-					}
+				"send": {
+					"property": "phoneNumber",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -1831,10 +1833,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "method",
 			"routing": {
-				"request": {
-					"body": {
-						"method": "={{ $value }}"
-					}
+				"send": {
+					"property": "method",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -1874,10 +1877,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "all",
 			"routing": {
-				"request": {
-					"qs": {
-						"all": "={{ $value }}"
-					}
+				"send": {
+					"property": "all",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -1917,10 +1921,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "name",
 			"routing": {
-				"request": {
-					"body": {
-						"name": "={{ $value }}"
-					}
+				"send": {
+					"property": "name",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -1941,10 +1946,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "start",
 			"routing": {
-				"request": {
-					"body": {
-						"start": "={{ $value }}"
-					}
+				"send": {
+					"property": "start",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -1964,10 +1970,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "config",
 			"routing": {
-				"request": {
-					"body": {
-						"config": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "config",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -2061,10 +2068,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "config",
 			"routing": {
-				"request": {
-					"body": {
-						"config": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "config",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -2381,10 +2389,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "name",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"name": "={{ $value }}"
-					}
+				"send": {
+					"property": "name",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2442,10 +2451,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "status",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"status": "={{ $value }}"
-					}
+				"send": {
+					"property": "status",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2503,10 +2513,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -2583,10 +2594,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2607,10 +2619,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2631,10 +2644,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "reply_to",
 			"routing": {
-				"request": {
-					"body": {
-						"reply_to": "={{ $value }}"
-					}
+				"send": {
+					"property": "reply_to",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2655,10 +2669,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "text",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"text": "={{ $value }}"
-					}
+				"send": {
+					"property": "text",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2678,10 +2693,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "linkPreview",
 			"routing": {
-				"request": {
-					"body": {
-						"linkPreview": "={{ $value }}"
-					}
+				"send": {
+					"property": "linkPreview",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -2721,10 +2737,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2745,10 +2762,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2769,10 +2787,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -2793,10 +2812,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "reply_to",
 			"routing": {
-				"request": {
-					"body": {
-						"reply_to": "={{ $value }}"
-					}
+				"send": {
+					"property": "reply_to",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2816,10 +2836,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "caption",
 			"routing": {
-				"request": {
-					"body": {
-						"caption": "={{ $value }}"
-					}
+				"send": {
+					"property": "caption",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2859,10 +2880,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2883,10 +2905,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2907,10 +2930,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -2931,10 +2955,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "reply_to",
 			"routing": {
-				"request": {
-					"body": {
-						"reply_to": "={{ $value }}"
-					}
+				"send": {
+					"property": "reply_to",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2954,10 +2979,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "caption",
 			"routing": {
-				"request": {
-					"body": {
-						"caption": "={{ $value }}"
-					}
+				"send": {
+					"property": "caption",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -2997,10 +3023,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3021,10 +3048,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3045,10 +3073,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -3069,10 +3098,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "reply_to",
 			"routing": {
-				"request": {
-					"body": {
-						"reply_to": "={{ $value }}"
-					}
+				"send": {
+					"property": "reply_to",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3112,10 +3142,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3136,10 +3167,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3160,10 +3192,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -3184,10 +3217,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "reply_to",
 			"routing": {
-				"request": {
-					"body": {
-						"reply_to": "={{ $value }}"
-					}
+				"send": {
+					"property": "reply_to",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3208,10 +3242,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "asNote",
 			"routing": {
-				"request": {
-					"body": {
-						"asNote": "={{ $value }}"
-					}
+				"send": {
+					"property": "asNote",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -3231,10 +3266,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "caption",
 			"routing": {
-				"request": {
-					"body": {
-						"caption": "={{ $value }}"
-					}
+				"send": {
+					"property": "caption",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3274,10 +3310,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3298,10 +3335,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3322,10 +3360,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "header",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"header": "={{ $value }}"
-					}
+				"send": {
+					"property": "header",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3345,10 +3384,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "headerImage",
 			"routing": {
-				"request": {
-					"body": {
-						"headerImage": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "headerImage",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -3369,10 +3409,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "body",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"body": "={{ $value }}"
-					}
+				"send": {
+					"property": "body",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3393,10 +3434,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "footer",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"footer": "={{ $value }}"
-					}
+				"send": {
+					"property": "footer",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3417,10 +3459,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "buttons",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"buttons": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "buttons",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -3460,10 +3503,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3484,10 +3528,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3508,10 +3553,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "messageId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"messageId": "={{ $value }}"
-					}
+				"send": {
+					"property": "messageId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3551,10 +3597,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3575,10 +3622,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3599,10 +3647,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "messageId",
 			"routing": {
-				"request": {
-					"body": {
-						"messageId": "={{ $value }}"
-					}
+				"send": {
+					"property": "messageId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3623,10 +3672,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "participant",
 			"routing": {
-				"request": {
-					"body": {
-						"participant": "={{ $value }}"
-					}
+				"send": {
+					"property": "participant",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3666,10 +3716,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3690,10 +3741,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3733,10 +3785,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3757,10 +3810,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3800,10 +3854,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3824,10 +3879,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "messageId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"messageId": "={{ $value }}"
-					}
+				"send": {
+					"property": "messageId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3849,10 +3905,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "reaction",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"reaction": "={{ $value }}"
-					}
+				"send": {
+					"property": "reaction",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3892,10 +3949,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3916,10 +3974,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "messageId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"messageId": "={{ $value }}"
-					}
+				"send": {
+					"property": "messageId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3940,10 +3999,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -3964,10 +4024,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "star",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"star": "={{ $value }}"
-					}
+				"send": {
+					"property": "star",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -4007,10 +4068,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4031,10 +4093,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4055,10 +4118,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "reply_to",
 			"routing": {
-				"request": {
-					"body": {
-						"reply_to": "={{ $value }}"
-					}
+				"send": {
+					"property": "reply_to",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4079,10 +4143,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "poll",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"poll": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "poll",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -4122,10 +4187,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4146,10 +4212,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4170,10 +4237,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "latitude",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"latitude": "={{ $value }}"
-					}
+				"send": {
+					"property": "latitude",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4194,10 +4262,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "longitude",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"longitude": "={{ $value }}"
-					}
+				"send": {
+					"property": "longitude",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4218,10 +4287,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "title",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"title": "={{ $value }}"
-					}
+				"send": {
+					"property": "title",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4242,10 +4312,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "reply_to",
 			"routing": {
-				"request": {
-					"body": {
-						"reply_to": "={{ $value }}"
-					}
+				"send": {
+					"property": "reply_to",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4285,10 +4356,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4309,10 +4381,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4333,10 +4406,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "url",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"url": "={{ $value }}"
-					}
+				"send": {
+					"property": "url",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4357,10 +4431,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "title",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"title": "={{ $value }}"
-					}
+				"send": {
+					"property": "title",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4400,10 +4475,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4424,10 +4500,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -4448,10 +4525,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "contacts",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"contacts": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "contacts",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -4523,10 +4601,11 @@ test('WAHAv202502.description.properties', () => {
 				}
 			],
 			"routing": {
-				"request": {
-					"qs": {
-						"sortBy": "={{ $value }}"
-					}
+				"send": {
+					"property": "sortBy",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -4557,10 +4636,11 @@ test('WAHAv202502.description.properties', () => {
 				}
 			],
 			"routing": {
-				"request": {
-					"qs": {
-						"sortOrder": "={{ $value }}"
-					}
+				"send": {
+					"property": "sortOrder",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -4580,10 +4660,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "limit",
 			"routing": {
-				"request": {
-					"qs": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4603,10 +4684,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "offset",
 			"routing": {
-				"request": {
-					"qs": {
-						"offset": "={{ $value }}"
-					}
+				"send": {
+					"property": "offset",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4663,10 +4745,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "limit",
 			"routing": {
-				"request": {
-					"qs": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4686,10 +4769,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "offset",
 			"routing": {
-				"request": {
-					"qs": {
-						"offset": "={{ $value }}"
-					}
+				"send": {
+					"property": "offset",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4819,10 +4903,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "refresh",
 			"routing": {
-				"request": {
-					"qs": {
-						"refresh": "={{ $value }}"
-					}
+				"send": {
+					"property": "refresh",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -4880,10 +4965,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "downloadMedia",
 			"routing": {
-				"request": {
-					"qs": {
-						"downloadMedia": "={{ $value }}"
-					}
+				"send": {
+					"property": "downloadMedia",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -4904,10 +4990,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "limit",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4927,10 +5014,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "offset",
 			"routing": {
-				"request": {
-					"qs": {
-						"offset": "={{ $value }}"
-					}
+				"send": {
+					"property": "offset",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4951,10 +5039,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "filter.timestamp.lte",
 			"routing": {
-				"request": {
-					"qs": {
-						"filter.timestamp.lte": "={{ $value }}"
-					}
+				"send": {
+					"property": "filter.timestamp.lte",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4975,10 +5064,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "filter.timestamp.gte",
 			"routing": {
-				"request": {
-					"qs": {
-						"filter.timestamp.gte": "={{ $value }}"
-					}
+				"send": {
+					"property": "filter.timestamp.gte",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -4999,10 +5089,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "filter.fromMe",
 			"routing": {
-				"request": {
-					"qs": {
-						"filter.fromMe": "={{ $value }}"
-					}
+				"send": {
+					"property": "filter.fromMe",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -5133,10 +5224,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "downloadMedia",
 			"routing": {
-				"request": {
-					"qs": {
-						"downloadMedia": "={{ $value }}"
-					}
+				"send": {
+					"property": "downloadMedia",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -5338,10 +5430,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "text",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"text": "={{ $value }}"
-					}
+				"send": {
+					"property": "text",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -5435,10 +5528,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "duration",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"duration": "={{ $value }}"
-					}
+				"send": {
+					"property": "duration",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -5746,10 +5840,11 @@ test('WAHAv202502.description.properties', () => {
 				}
 			],
 			"routing": {
-				"request": {
-					"qs": {
-						"role": "={{ $value }}"
-					}
+				"send": {
+					"property": "role",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -5807,10 +5902,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "name",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"name": "={{ $value }}"
-					}
+				"send": {
+					"property": "name",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -5830,10 +5926,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "description",
 			"routing": {
-				"request": {
-					"body": {
-						"description": "={{ $value }}"
-					}
+				"send": {
+					"property": "description",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -5853,10 +5950,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "picture",
 			"routing": {
-				"request": {
-					"body": {
-						"picture": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "picture",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -6042,10 +6140,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "downloadMedia",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"downloadMedia": "={{ $value }}"
-					}
+				"send": {
+					"property": "downloadMedia",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -6066,10 +6165,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "limit",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -6347,10 +6447,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "view",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"view": "={{ $value }}"
-					}
+				"send": {
+					"property": "view",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -6371,10 +6472,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "countries",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"countries": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "countries",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -6395,10 +6497,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "categories",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"categories": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "categories",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -6419,10 +6522,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "limit",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -6443,10 +6547,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "startCursor",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"startCursor": "={{ $value }}"
-					}
+				"send": {
+					"property": "startCursor",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -6504,10 +6609,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "text",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"text": "={{ $value }}"
-					}
+				"send": {
+					"property": "text",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -6528,10 +6634,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "categories",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"categories": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "categories",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -6552,10 +6659,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "limit",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -6576,10 +6684,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "startCursor",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"startCursor": "={{ $value }}"
-					}
+				"send": {
+					"property": "startCursor",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -6748,10 +6857,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "contacts",
 			"routing": {
-				"request": {
-					"body": {
-						"contacts": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "contacts",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -6772,10 +6882,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "text",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"text": "={{ $value }}"
-					}
+				"send": {
+					"property": "text",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -6796,10 +6907,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "backgroundColor",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"backgroundColor": "={{ $value }}"
-					}
+				"send": {
+					"property": "backgroundColor",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -6820,10 +6932,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "font",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"font": "={{ $value }}"
-					}
+				"send": {
+					"property": "font",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -6881,10 +6994,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -6905,10 +7019,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "contacts",
 			"routing": {
-				"request": {
-					"body": {
-						"contacts": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "contacts",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -6928,10 +7043,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "caption",
 			"routing": {
-				"request": {
-					"body": {
-						"caption": "={{ $value }}"
-					}
+				"send": {
+					"property": "caption",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -6989,10 +7105,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -7013,10 +7130,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "contacts",
 			"routing": {
-				"request": {
-					"body": {
-						"contacts": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "contacts",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -7037,10 +7155,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "backgroundColor",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"backgroundColor": "={{ $value }}"
-					}
+				"send": {
+					"property": "backgroundColor",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7098,10 +7217,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -7122,10 +7242,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "contacts",
 			"routing": {
-				"request": {
-					"body": {
-						"contacts": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "contacts",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -7145,10 +7266,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "caption",
 			"routing": {
-				"request": {
-					"body": {
-						"caption": "={{ $value }}"
-					}
+				"send": {
+					"property": "caption",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7207,10 +7329,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "id",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"id": "={{ $value }}"
-					}
+				"send": {
+					"property": "id",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7231,10 +7354,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "contacts",
 			"routing": {
-				"request": {
-					"body": {
-						"contacts": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "contacts",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -7330,10 +7454,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "name",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"name": "={{ $value }}"
-					}
+				"send": {
+					"property": "name",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7354,10 +7479,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "colorHex",
 			"routing": {
-				"request": {
-					"body": {
-						"colorHex": "={{ $value }}"
-					}
+				"send": {
+					"property": "colorHex",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7378,10 +7504,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "color",
 			"routing": {
-				"request": {
-					"body": {
-						"color": "={{ $value }}"
-					}
+				"send": {
+					"property": "color",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -7457,10 +7584,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "name",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"name": "={{ $value }}"
-					}
+				"send": {
+					"property": "name",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7481,10 +7609,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "colorHex",
 			"routing": {
-				"request": {
-					"body": {
-						"colorHex": "={{ $value }}"
-					}
+				"send": {
+					"property": "colorHex",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7505,10 +7634,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "color",
 			"routing": {
-				"request": {
-					"body": {
-						"color": "={{ $value }}"
-					}
+				"send": {
+					"property": "color",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -7693,10 +7823,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "labels",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"labels": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "labels",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -7790,10 +7921,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7824,10 +7956,11 @@ test('WAHAv202502.description.properties', () => {
 				}
 			],
 			"routing": {
-				"request": {
-					"qs": {
-						"sortBy": "={{ $value }}"
-					}
+				"send": {
+					"property": "sortBy",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -7858,10 +7991,11 @@ test('WAHAv202502.description.properties', () => {
 				}
 			],
 			"routing": {
-				"request": {
-					"qs": {
-						"sortOrder": "={{ $value }}"
-					}
+				"send": {
+					"property": "sortOrder",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -7881,10 +8015,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "limit",
 			"routing": {
-				"request": {
-					"qs": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -7904,10 +8039,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "offset",
 			"routing": {
-				"request": {
-					"qs": {
-						"offset": "={{ $value }}"
-					}
+				"send": {
+					"property": "offset",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -7947,10 +8083,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -7971,10 +8108,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "contactId",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"contactId": "={{ $value }}"
-					}
+				"send": {
+					"property": "contactId",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8014,10 +8152,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8039,10 +8178,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "phone",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"phone": "={{ $value }}"
-					}
+				"send": {
+					"property": "phone",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8082,10 +8222,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8106,10 +8247,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "contactId",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"contactId": "={{ $value }}"
-					}
+				"send": {
+					"property": "contactId",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8149,10 +8291,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8173,10 +8316,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "contactId",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"contactId": "={{ $value }}"
-					}
+				"send": {
+					"property": "contactId",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8197,10 +8341,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "refresh",
 			"routing": {
-				"request": {
-					"qs": {
-						"refresh": "={{ $value }}"
-					}
+				"send": {
+					"property": "refresh",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -8240,10 +8385,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8264,10 +8410,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "contactId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"contactId": "={{ $value }}"
-					}
+				"send": {
+					"property": "contactId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8307,10 +8454,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8331,10 +8479,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "contactId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"contactId": "={{ $value }}"
-					}
+				"send": {
+					"property": "contactId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8392,10 +8541,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "name",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"name": "={{ $value }}"
-					}
+				"send": {
+					"property": "name",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8416,10 +8566,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "participants",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"participants": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "participants",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -8487,10 +8638,11 @@ test('WAHAv202502.description.properties', () => {
 				}
 			],
 			"routing": {
-				"request": {
-					"qs": {
-						"sortBy": "={{ $value }}"
-					}
+				"send": {
+					"property": "sortBy",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -8521,10 +8673,11 @@ test('WAHAv202502.description.properties', () => {
 				}
 			],
 			"routing": {
-				"request": {
-					"qs": {
-						"sortOrder": "={{ $value }}"
-					}
+				"send": {
+					"property": "sortOrder",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -8544,10 +8697,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "limit",
 			"routing": {
-				"request": {
-					"qs": {
-						"limit": "={{ $value }}"
-					}
+				"send": {
+					"property": "limit",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -8567,10 +8721,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "offset",
 			"routing": {
-				"request": {
-					"qs": {
-						"offset": "={{ $value }}"
-					}
+				"send": {
+					"property": "offset",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "number"
@@ -8629,10 +8784,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "code",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"code": "={{ $value }}"
-					}
+				"send": {
+					"property": "code",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8691,10 +8847,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "code",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"code": "={{ $value }}"
-					}
+				"send": {
+					"property": "code",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -8971,10 +9128,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "refresh",
 			"routing": {
-				"request": {
-					"qs": {
-						"refresh": "={{ $value }}"
-					}
+				"send": {
+					"property": "refresh",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -9050,10 +9208,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "file",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"file": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "file",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -9184,10 +9343,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "description",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"description": "={{ $value }}"
-					}
+				"send": {
+					"property": "description",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -9263,10 +9423,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "subject",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"subject": "={{ $value }}"
-					}
+				"send": {
+					"property": "subject",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -9342,10 +9503,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "adminsOnly",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"adminsOnly": "={{ $value }}"
-					}
+				"send": {
+					"property": "adminsOnly",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -9476,10 +9638,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "adminsOnly",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"adminsOnly": "={{ $value }}"
-					}
+				"send": {
+					"property": "adminsOnly",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -9775,10 +9938,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "participants",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"participants": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "participants",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -9854,10 +10018,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "participants",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"participants": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "participants",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -9933,10 +10098,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "participants",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"participants": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "participants",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -10012,10 +10178,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "participants",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"participants": "={{ JSON.parse($value) }}"
-					}
+				"send": {
+					"property": "participants",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ JSON.parse($value) }}"
 				}
 			},
 			"type": "json"
@@ -10074,10 +10241,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "chatId",
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"chatId": "={{ $value }}"
-					}
+				"send": {
+					"property": "chatId",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -10120,10 +10288,11 @@ test('WAHAv202502.description.properties', () => {
 			],
 			"required": true,
 			"routing": {
-				"request": {
-					"body": {
-						"presence": "={{ $value }}"
-					}
+				"send": {
+					"property": "presence",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "options"
@@ -10310,10 +10479,11 @@ test('WAHAv202502.description.properties', () => {
 			"name": "session",
 			"required": true,
 			"routing": {
-				"request": {
-					"qs": {
-						"session": "={{ $value }}"
-					}
+				"send": {
+					"property": "session",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "string"
@@ -10410,10 +10580,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "all",
 			"routing": {
-				"request": {
-					"qs": {
-						"all": "={{ $value }}"
-					}
+				"send": {
+					"property": "all",
+					"propertyInDotNotation": false,
+					"type": "query",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
@@ -10472,10 +10643,11 @@ test('WAHAv202502.description.properties', () => {
 			},
 			"name": "force",
 			"routing": {
-				"request": {
-					"body": {
-						"force": "={{ $value }}"
-					}
+				"send": {
+					"property": "force",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
 				}
 			},
 			"type": "boolean"
