@@ -5037,7 +5037,7 @@ test('WAHAv202502.description.properties', () => {
 					]
 				}
 			},
-			"name": "filter.timestamp.lte",
+			"name": "filter-timestamp-lte",
 			"routing": {
 				"send": {
 					"property": "filter.timestamp.lte",
@@ -5062,7 +5062,7 @@ test('WAHAv202502.description.properties', () => {
 					]
 				}
 			},
-			"name": "filter.timestamp.gte",
+			"name": "filter-timestamp-gte",
 			"routing": {
 				"send": {
 					"property": "filter.timestamp.gte",
@@ -5087,7 +5087,7 @@ test('WAHAv202502.description.properties', () => {
 					]
 				}
 			},
-			"name": "filter.fromMe",
+			"name": "filter-fromMe",
 			"routing": {
 				"send": {
 					"property": "filter.fromMe",
