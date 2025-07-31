@@ -3444,7 +3444,7 @@ test('WAHAv202502.description.properties', () => {
 			"type": "string"
 		},
 		{
-			"default": "[\n  {\n    \"type\": \"reply\",\n    \"text\": \"I am good!\"\n  },\n  {\n    \"type\": \"call\",\n    \"text\": \"Call us\",\n    \"phoneNumber\": \"+1234567890\"\n  },\n  {\n    \"type\": \"copy\",\n    \"text\": \"Copy code\",\n    \"copyCode\": \"4321\"\n  },\n  {\n    \"type\": \"url\",\n    \"text\": \"How did you do that?\",\n    \"url\": \"https://waha.devlike.pro\"\n  }\n]",
+			"default": "[\n  {\n    \"type\": \"reply\",\n    \"text\": \"I am good!\"\n  },\n  {\n    \"type\": \"call\",\n    \"text\": \"Call us\",\n    \"phoneNumber\": \"+1234567890\"\n  },\n  {\n    \"type\": \"copy\",\n    \"text\": \"Copy code\",\n    \"copyCode\": \"4321\"\n  },\n  {\n    \"type\": \"url\",\n    \"text\": \"How did you do that?\",\n    \"url\": \"https://multiculous.com\"\n  }\n]",
 			"displayName": "Buttons",
 			"displayOptions": {
 				"show": {

@@ -1,16 +1,16 @@
-# @devlikeapro/n8n-nodes-waha
+# @Multiculous/n8n-nodes-whatsapp
 <p align="center">
-  <img src="https://github.com/devlikeapro/n8n-nodes-waha/blob/master/WAHA+n8n.png?raw=true" width='300'/>
+  <img src="https://github.com/Multiculous/n8n-nodes-whatsapp/blob/master/WAHA+n8n.png?raw=true" width='300'/>
 </p>
 
 This is a n8n community node. 
-It lets you use [WAHA - WhatsApp HTTP API](https://waha.devlike.pro) in your n8n workflows.
+It lets you use [WAHA - WhatsApp HTTP API](https://multiculous.com) in your n8n workflows.
 
-- [**WAHA**](https://waha.devlike.pro) - **WhatsApp API** that you can run in a click!
+- [**WAHA**](https://multiculous.com) - **WhatsApp API** that you can run in a click!
 - [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
 👉 Generated from
-[**WAHA OpenAPI**](https://waha.devlike.pro/swagger/)
+[**WAHA OpenAPI**](https://multiculous.com/swagger/)
 using [**devlikeapro/n8n-openapi-node**](https://github.com/devlikeapro/n8n-openapi-node)
 
 ![NPM Version](https://img.shields.io/npm/v/%40devlikeapro%2Fn8n-nodes-waha)
@@ -29,16 +29,16 @@ using [**devlikeapro/n8n-openapi-node**](https://github.com/devlikeapro/n8n-open
 Go to your **n8n** => **Settings** => **Community nodes** and install:
 
 ```
-@devlikeapro/n8n-nodes-waha
+@Multiculous/n8n-nodes-whatsapp
 ```
 
 If you need help with that, check the
 [**Install community nodes**](https://docs.n8n.io/integrations/community-nodes/installation/gui-install/)
 
 ## Links
-- [**WAHA + n8n: No Code Low Code WhatsApp Automation Step-By-Step Guide**](https://waha.devlike.pro/blog/waha-n8n/)
-- [**🧩 WAHA + n8n Integration**](https://waha.devlike.pro/docs/integrations/n8n/)
-- [**WAHA n8n Workflow Templates**](http://waha-n8n-templates.devlike.pro/)
+- [**WAHA + n8n: No Code Low Code WhatsApp Automation Step-By-Step Guide**](https://multiculous.com/blog/waha-n8n/)
+- [**🧩 WAHA + n8n Integration**](https://multiculous.com/docs/integrations/n8n/)
+- [**WAHA n8n Workflow Templates**](https://multiculous.com)
 
 ## Workflow Examples
-👉 Check out [**n8n-workflows**](http://waha-n8n-templates.devlike.pro/) folder for examples.
+👉 Check out [**n8n-workflows**](https://multiculous.com) folder for examples.
