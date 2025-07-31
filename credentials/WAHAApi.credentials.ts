@@ -6,7 +6,7 @@ import {
 
 export class WAHAApi implements ICredentialType {
     name = 'wahaApi';
-    displayName = 'WAHA API';
+    displayName = 'WhatsApp API';
     properties: INodeProperties[] = [
         {
             displayName: 'Host URL',

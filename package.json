@@ -1,6 +1,6 @@
 {
   "name": "@umairabubakkar/n8n-nodes-whatsapp",
-  "version": "2025.2.10",
+  "version": "2025.2.11",
   "description": "n8n to connect with WAHA (Whatsapp HTTP API)",
   "keywords": [
     "n8n-community-node-package"
