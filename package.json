@@ -1,5 +1,5 @@
 {
-  "name": "@devlikeapro/n8n-nodes-waha",
+  "name": "@Multiculous/n8n-nodes-whatsapp",
   "version": "2025.2.9",
   "description": "n8n to connect with WAHA (Whatsapp HTTP API)",
   "keywords": [
@@ -8,12 +8,12 @@
   "license": "MIT",
   "homepage": "https://n8n.io",
   "author": {
-    "name": "WAHA",
-    "email": "waha@devlike.pro"
+    "name": "WhatsApp",
+    "email": "umairabubakkar@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devlikeapro/n8n-nodes-waha.git"
+    "url": "https://github.com/Multiculous/n8n-nodes-whatsapp.git"
   },
   "moduleDirectories": [
     "node_modules",
