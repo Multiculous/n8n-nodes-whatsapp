@@ -1,5 +1,5 @@
 {
-  "name": "@Multiculous/n8n-nodes-whatsapp",
+  "name": "@multiculous/n8n-nodes-whatsapp",
   "version": "2025.2.9",
   "description": "n8n to connect with WAHA (Whatsapp HTTP API)",
   "keywords": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Multiculous/n8n-nodes-whatsapp.git"
+    "url": "https://github.com/multiculous/n8n-nodes-whatsapp.git"
   },
   "moduleDirectories": [
     "node_modules",
