@@ -6,7 +6,7 @@ import {
 	N8NPropertiesBuilder,
 	N8NPropertiesBuilderConfig,
 	Override,
-} from '@devlikeapro/n8n-openapi-node';
+} from '@umairabubakkar/n8n-openapi-node';
 import {WAHAOperationParser} from "../openapi/WAHAOperationParser";
 import {WAHAResourceParser} from "../openapi/WAHAResourceParser";
 

@@ -1,6 +1,6 @@
 import {OpenAPIV3} from 'openapi-types';
 import * as lodash from 'lodash';
-import { DefaultOperationParser, OperationContext } from '@devlikeapro/n8n-openapi-node';
+import { DefaultOperationParser, OperationContext } from '@umairabubakkar/n8n-openapi-node';
 
 export class WAHAOperationParser extends DefaultOperationParser {
 	name(operation: OpenAPIV3.OperationObject, context: OperationContext): string {

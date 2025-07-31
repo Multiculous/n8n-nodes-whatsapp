@@ -1,6 +1,6 @@
 import { OpenAPIV3 } from 'openapi-types';
 import { INodeProperties } from 'n8n-workflow';
-import { OperationsCollector, OperationContext } from '@devlikeapro/n8n-openapi-node';
+import { OperationsCollector, OperationContext } from '@umairabubakkar/n8n-openapi-node';
 
 function sessionFirst(a: any, b: any) {
 	if (a.name === 'session') {

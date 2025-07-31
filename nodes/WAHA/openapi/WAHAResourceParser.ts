@@ -1,6 +1,6 @@
 import {OpenAPIV3} from 'openapi-types';
 import * as lodash from 'lodash';
-import { DefaultResourceParser } from '@devlikeapro/n8n-openapi-node';
+import { DefaultResourceParser } from '@umairabubakkar/n8n-openapi-node';
 
 export class WAHAResourceParser extends DefaultResourceParser {
 	value(tag: OpenAPIV3.TagObject): string {
