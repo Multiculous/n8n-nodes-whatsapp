@@ -13,7 +13,7 @@ export const BASE_TRIGGER_DESCRIPTION: INodeTypeBaseDescription = {
 	name: 'wahaTrigger',
 	icon: 'file:waha.svg',
 	group: ['trigger'],
-	description: 'Handle WAHA events via webhooks',
+	description: 'Handle WhatsApp events via webhooks',
 };
 export const TRIGGER_DESCRIPTION = {
 	defaults: {
@@ -33,7 +33,7 @@ export const TRIGGER_DESCRIPTION = {
 
 export const CONFIGURE_WEBHOOK_NOTE: INodeProperties = {
 	displayName:
-		'Remember to configure WAHA instance (session or server) to send events to <b>Webhook URL</b>. ' +
+		'Remember to configure WhatsApp instance (session or server) to send events to <b>Webhook URL</b>. ' +
 		'<br/>Check <b>Docs</b> link above☝️',
 	name: 'operation',
 	type: 'notice',
